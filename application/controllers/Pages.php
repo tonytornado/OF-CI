@@ -27,6 +27,9 @@ class Pages extends CI_Controller
 		{
 			$this->load->view('components/heading', $data);
 			$this->load->view('pages/'.$page, $data);
+			if ($page === 'main' ){
+			$this->load->view('pages/newsletter', $data);
+			}
 			$this->load->view('components/footing');
 
 		}

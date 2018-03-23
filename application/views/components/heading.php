@@ -5,10 +5,9 @@
 <meta name="keyword" content="Overclocked Fitness, fitness, workout plans, exercise, personal training">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Roboto|Russo+One" rel="stylesheet">
-<link href="./assets/styles/main.css" rel="stylesheet">
+<link href="./assets/css/site.css" rel="stylesheet" />
+    <link href="./assets/css/animate.css" rel="stylesheet" />
 <!-- scripts -->
-<script defer src="./assets/js/main.js"></script>
-<script src="./assets/js/modernizr.js"></script>
 <title>Overclocked Fitness</title>
 </head>
 <body class="bg-dark text-light">
@@ -27,7 +26,7 @@
         <a class="nav-link" href='about'>About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Contact</a>
+        <a class="nav-link" href="contact">Contact</a>
       </li>
     </ul>
   </div>

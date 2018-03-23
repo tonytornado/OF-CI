@@ -1,3 +1,5 @@
+﻿// Write your Javascript code.
+
 // GOOGLE MAPS CODE //
 function myMap() {
     var mapProp = {
