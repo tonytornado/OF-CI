@@ -1,6 +1,4 @@
-﻿// Write your Javascript code.
-
-// GOOGLE MAPS CODE //
+﻿// GOOGLE MAPS CODE //
 function myMap() {
     var mapProp = {
         center: new google.maps.LatLng(38.200946, -85.601353),
@@ -10,7 +8,7 @@ function myMap() {
 }
 
 // SLIDE IN CODE //
-var $window = $(window),
+var $window = $(window)
     win_height_padded = $window.height() * 1.15;
 
 $(window).on('scroll', revealOnScroll);
