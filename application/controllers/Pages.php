@@ -38,7 +38,7 @@ class Pages extends CI_Controller
 			$this->client_model->enter_newsletter();
 			$this->load->view('components/heading', $data);
 			$this->load->view('pages/success');
-			$this->load->view('pages/'.$page, $data);
+			$this->load->view('pages/main', $data);
 			$this->load->view('components/footing');
 		}
 	}
