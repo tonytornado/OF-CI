@@ -1,5 +1,5 @@
 <section class="container">
-    <h2 class="display-4 py-4">Contact</h2>
+    <h2 class="display-4">Contact</h2>
     <address>
         We are located in Louisville, Kentucky.
     </address>

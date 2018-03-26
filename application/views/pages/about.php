@@ -1,5 +1,5 @@
 <section class="container">
-    <h2 class="display-4 py-4">About O.F.</h2>
+    <h2 class="display-4">About O.F.</h2>
     <div class="row align-items-center">
         <div class="col-md-7">
             <p class="lead">Overclocked Fitness was originally started as a self-proprietorship by head coach (and lean, mean, fighting machine) Tony Tatsumaki. In bringing the fundamentals of calisthenic workouts into the gym with complex resistance routines, Tony has pioneered an efficient way for beginners and advanced strength training without the need of a gym membership or heavy weight.</p>

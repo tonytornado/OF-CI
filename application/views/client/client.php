@@ -1,9 +1,10 @@
-<section class="container text-center py-3">
-    <h2 class="display-4 pt-4">Candidate Application</h2>
+<section class="container text-center">
+    <h2 class="display-4">Candidate Application</h2>
     <p class="lead">Use this form to fill in any and all details you may know about yourself right now. After filling this out, we'll contact you later to talk about your fitness goals.</p>
+    <br>
     <?php echo validation_errors(); ?>
     <?php echo form_open('pages/signup'); ?>
-        <div class="form-group row col-md-10 mx-auto">
+        <div class="form-group row mx-auto" id="Candidate">
             <div class="col-lg-6 mx-auto">
               <h3 class="text-center">Basic Information</h3>
               <div class="form-group">
@@ -31,6 +32,7 @@
                 </select>
               </div>
             </div>
+            <br><br>
             <div class="col-lg-6">
               <h3 class="text-center">Body Measurements</h3>
               <div class="row">
@@ -80,6 +82,7 @@
                 </div>
               </div>
             </div>
+            <br>
           </div>
           <button type="submit" name="submit" class="btn btn-primary text-center" value="Create new client">Time to learn too much!</button>
       </form>
