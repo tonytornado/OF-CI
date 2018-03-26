@@ -35,11 +35,3 @@ function revealOnScroll() {
 $(document).ready(function () {
     $('.parallax-title').css("height",window.innerHeight);
 });
-
-
-var o = {
-    "point": {
-        "X": 0,
-        "Y": 0
-    },
-};

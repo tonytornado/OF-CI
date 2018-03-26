@@ -1,4 +1,4 @@
-<section id="signup" class="text-center px-5 mx-auto col-md-7 jumbotron bg-secondary">
+<section id="signup" class="text-center mx-auto col-md-8 jumbotron bg-secondary">
   <h2>Sign up for our newsletter!</h2>
   <div class="form-group small">
     <?php echo validation_errors(); ?>
